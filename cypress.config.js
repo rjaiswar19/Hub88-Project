@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    //specPattern:"cypress/e2e/UIAutomation/*.js",
-    specPattern:"cypress/e2e/APIAutomation/*.js"
+    specPattern:"cypress/e2e/*/*.js",
+   // specPattern:"cypress/e2e/APIAutomation/*.js"
   },
 });

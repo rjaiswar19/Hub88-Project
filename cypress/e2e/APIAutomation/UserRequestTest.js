@@ -12,12 +12,6 @@ describe('API automation for post request', () => {
     it('API automation ', () => {
 
         var email=util.getRandomEmail()
-
-        // var pattern="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-        // for(var i=0;i < 10;i++)
-        //     randomtext+=pattern.charAt(Math.floor(Math.random()*pattern.length));
-        //     emailtext=randomtext+'@gmail.com'
-
       cy.request({
           method:'POST',
           url:'https://gorest.co.in/public/v2/users',
